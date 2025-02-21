@@ -1,0 +1,35 @@
+.features {
+  padding: 80px 0;  
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__header {
+  margin-bottom: 20px;
+}
+
+.cardIcon {
+  font-size: 50px;
+  color: #4CAF50; 
+  display: block;
+  margin: 0 auto 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 1rem;
+}
