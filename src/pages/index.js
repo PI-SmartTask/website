@@ -15,7 +15,7 @@ function HomepageHeader() {
     <header
       className={clsx('hero hero--primary', styles.heroBanner)}
       style={{
-        backgroundImage: 'url(/img/fundo.jpg)',
+        backgroundImage: 'url(./img/fundo.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '600px',

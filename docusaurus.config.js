@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Smartask',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo_s.png',
 
   // Set the production url of your site here
   url: 'https://PI-SmartTask.github.io/',
@@ -68,13 +68,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      //image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Smartask',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        // },
+        //title: 'Smartask',
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/logo_s.png',
+        },
         items: [
           { to: '/docs/arquitetura', label: 'Arquitetura', position: 'left' },
           { to: '/docs/domuments', label: 'Domuments', position: 'left' },
@@ -93,7 +93,7 @@ const config = {
                 href: '#',
               },
               {
-                label: 'Department of Electronics, Telecommunications and Informatics',
+                label: 'DETI',
                 href: 'https://www.ua.pt/pt/deti',
               },
               {

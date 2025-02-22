@@ -6,19 +6,19 @@ const SmarTaskCards = [
   {
     title: 'Gestão de Horários',
     description: 'O SmarTask otimiza a alocação de horários automaticamente.',
-    imageUrl: '/img/clock-icon.png',
+    imageUrl: './img/Gestao.png',
     altText: 'Ícone de relógio',
   },
   {
     title: 'Inteligência Artificial',
     description: 'Utiliza IA para fazer ajustes dinâmicos e rápidos.',
-    imageUrl: '/img/ai-icon.png', 
+    imageUrl: './img/IA.png', 
     altText: 'Ícone de IA',
   },
   {
     title: 'Eficiência e Flexibilidade',
     description: 'Adapta-se facilmente a mudanças e imprevistos.',
-    imageUrl: '/img/flexibility-icon.png', 
+    imageUrl: './img/flexibilidade.png',
     altText: 'Ícone de flexibilidade',
   },
 ];

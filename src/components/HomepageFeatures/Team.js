@@ -5,17 +5,20 @@ import styles from './Team.module.css';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const teamMembers = [
-  { name: 'João Monteiro', role: 'CEO', imageUrl: '/img/fundo.jpg', altText: 'João Monteiro', github: '#', linkedin: 'https://github.com/monteiroo21', email: 'joao@exemplo.com' },
-  { name: 'Rafael Kuati', role: 'Desenvolvedor Front-End', imageUrl: '/img/fundo.jpg', altText: 'Rafael Kuati', github: 'https://github.com/Rafael-Kauati', linkedin: '#', email: 'rafael@exemplo.com' },
-  { name: 'Gabriel Teixeira', role: 'Designer UX/UI', imageUrl: '/img/fundo.jpg', altText: 'Gabriel Teixeira', github: 'https://github.com/GabrielTeixei', linkedin: '#', email: 'gabriel@exemplo.com' },
-  { name: 'Vitale', role: 'Gerente de Produto', imageUrl: '/img/fundo.jpg', altText: 'Vitale', github: '#', linkedin: 'https://github.com/Vitalie03', email: 'vitale@exemplo.com' },
+  { name: 'João Monteiro', role: 'CEO', imageUrl: '/img/fundo.jpg', altText: 'João Monteiro', github: '#', linkedin: 'https://github.com/monteiroo21', email: 'joaomonteiro29@ua.pt' },
+  { name: 'Rafael Kuati', role: 'Desenvolvedor Front-End', imageUrl: './img/rafael.jpeg', altText: 'Rafael Kuati', github: 'https://github.com/Rafael-Kauati', linkedin: '#', email: 'rafaelkauati@ua.pt' },
+  { name: 'Gabriel Teixeira', role: 'Designer UX/UI', imageUrl: './img/gabriel.jpeg', altText: 'Gabriel Teixeira', github: 'https://github.com/GabrielTeixei', linkedin: '#', email: 'gabrielm.teixeira@ua.pt' },
+  { name: 'Vitale', role: 'Gerente de Produto', imageUrl: '/img/fundo.jpg', altText: 'Vitale', github: '#', linkedin: 'https://github.com/Vitalie03', email: 'vitalie@ua.pt' },
+  { name: 'André Fernandes', role: 'Gerente de Produto', imageUrl: '/img/fundo.jpg', altText: 'André Fernandes', github: '#', linkedin: 'https://github.com/SledgeSune', email: 'andre.sou.fernandes@ua.pt' },
 ];
 
 export default function Team() {
   return (
     <section className={clsx(styles.teamSection)}>
       <div className="container">
-        <Heading as="h2" className={clsx("text--center", styles.headingTitle)}>Nossa Equipe</Heading>
+        <Heading as="h2" style={{ fontSize: '2.5rem', fontWeight: 'bold' }} className={clsx("text--center", styles.headingTitle)}>
+          Nossa Equipe
+        </Heading>
         <div className={styles.teamGrid}>
           {teamMembers.map((member, idx) => (
             <div key={idx} className={clsx(styles.teamCard)}>

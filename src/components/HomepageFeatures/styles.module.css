@@ -1,17 +1,20 @@
 .features {
-  padding: 80px 0;  
+  padding: 80px 20px;
 }
 
 .card {
   background: #fff;
-  border: 1px solid #ddd;
+  border: none;
   border-radius: 8px;
   padding: 20px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card__header {
@@ -20,7 +23,7 @@
 
 .cardIcon {
   font-size: 50px;
-  color: #4CAF50; 
+  color: #4CAF50;
   display: block;
   margin: 0 auto 20px;
 }
@@ -32,4 +35,71 @@ h2 {
 
 p {
   font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 1024px) {
+  .features {
+    padding: 60px 20px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+
+  .cardIcon {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 40px 15px;
+  }
+
+  .card {
+    padding: 10px;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .cardIcon {
+    font-size: 35px;
+  }
+
+  .card__header {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .features {
+    padding: 30px 10px;
+  }
+
+  .card {
+    padding: 8px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+
+  .cardIcon {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
 }
