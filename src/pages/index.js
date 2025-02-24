@@ -3,7 +3,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Team from '@site/src/components/HomepageFeatures/Team';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import AboutUs from '@site/src/components/HomepageFeatures/AboutUs';
@@ -19,6 +18,10 @@ function HomepageHeader() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '600px',
+        padding: '4rem 0',
+        textAlign: 'center',
+        position: 'relative',
+        overflow: 'hidden',
       }}
     >
       <div className="container">
@@ -27,7 +30,7 @@ function HomepageHeader() {
           className="hero__title"
           style={{
             color: 'black',
-            fontSize: '4rem', 
+            fontSize: '4rem',
             fontWeight: 'bold',
           }}
         >
@@ -38,11 +41,11 @@ function HomepageHeader() {
           style={{
             color: 'black',
             fontStyle: 'italic',
-            fontSize: '1.5rem', 
+            fontSize: '1.5rem',
             marginTop: '10px',
           }}
         >
-          Aproveite o poder da IA e transforme a gestão de horários da sua empresa!
+          Leverage the power of AI and transform your company's schedule management!
         </p>
       </div>
     </header>
@@ -50,17 +53,18 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title="SmarTask"
-      description="SmarTask é um sistema avançado que utiliza IA para otimizar a alocação de horários em empresas.">
+      description="SmarTask é um sistema avançado que utiliza IA para otimizar a alocação de horários em empresas."
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <AboutUs/>
-        <Team /> 
+        <AboutUs />
+        <Team />
       </main>
     </Layout>
   );
 }
+

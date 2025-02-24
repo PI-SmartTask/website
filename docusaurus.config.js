@@ -69,18 +69,17 @@ const config = {
     ({
       // Replace with your project's social card
       //image: 'img/docusaurus-social-card.jpg',
-      navbar: {
+      navbar: { 
         //title: 'Smartask',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo_s.png',
         },
         items: [
-          { to: '/docs/arquitetura', label: 'Arquitetura', position: 'left' },
-          { to: '/docs/domuments', label: 'Domuments', position: 'left' },
-          { to: '/docs/calendario', label: 'Calendario', position: 'left' },
+          { to: '/docs/category/project-informations', label: 'Documents', position: 'left' },
+          { to: '/blog/', label: 'Milestones', position: 'left' },
           { href: 'https://github.com/PI-SmartTask', label: 'GitHub', position: 'right' },
-        ],        
+        ],     
       },
       footer: {
         style: 'dark',
@@ -105,10 +104,7 @@ const config = {
           {
             title: 'Useful Links',
             items: [
-              {
-                label: 'Jira',
-                href: '#',
-              },
+          
               {
                 label: 'GitHub',
                 href: 'https://github.com/PI-SmartTask',

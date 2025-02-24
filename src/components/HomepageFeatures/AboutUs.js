@@ -12,7 +12,7 @@ export default function SobreNos() {
           marginBottom: '20px' 
         }}
       >
-        Sobre Nós
+        About Us
       </Heading>
       <p 
         style={{ 
@@ -23,8 +23,8 @@ export default function SobreNos() {
           lineHeight: '1.6'  
         }}
       >
-        Somos estudantes de eng. de informática, e este projeto foi desenvolvido como nosso Trabalho de Conclusão de Curso para o nosso programa de graduação. 
-        O conceito do SmarTask é um sistema avançado que utiliza IA para otimizar a alocação de horários em empresas.
+        We are Computer Engineering students, and this project was developed as our Final Year Project for our undergraduate program.
+        The concept of SmartAsk is an advanced system that uses AI and advanced algorithms to optimize the allocation of schedules in companies.
       </p>
     </section>
   );

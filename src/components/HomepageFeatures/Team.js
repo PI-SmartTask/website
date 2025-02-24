@@ -17,7 +17,7 @@ export default function Team() {
     <section className={clsx(styles.teamSection)}>
       <div className="container">
         <Heading as="h2" style={{ fontSize: '2.5rem', fontWeight: 'bold' }} className={clsx("text--center", styles.headingTitle)}>
-          Nossa Equipe
+          Our Team
         </Heading>
         <div className={styles.teamGrid}>
           {teamMembers.map((member, idx) => (

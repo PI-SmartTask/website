@@ -2,28 +2,28 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const SmarTaskCards = [
+const SmartAskCards = [
   {
-    title: 'Gestão de Horários',
-    description: 'O SmarTask otimiza a alocação de horários automaticamente.',
+    title: 'Schedule Management',
+    description: 'SmartAsk automatically optimizes the allocation of schedules.',
     imageUrl: './img/Gestao.png',
-    altText: 'Ícone de relógio',
+    altText: 'Clock Icon',
   },
   {
-    title: 'Inteligência Artificial',
-    description: 'Utiliza IA para fazer ajustes dinâmicos e rápidos.',
-    imageUrl: './img/IA.png', 
-    altText: 'Ícone de IA',
+    title: 'Artificial Intelligence',
+    description: 'Uses AI to make dynamic and quick adjustments.',
+    imageUrl: './img/IA.png',
+    altText: 'AI Icon',
   },
   {
-    title: 'Eficiência e Flexibilidade',
-    description: 'Adapta-se facilmente a mudanças e imprevistos.',
+    title: 'Efficiency and Flexibility',
+    description: 'Easily adapts to changes and unforeseen events.',
     imageUrl: './img/flexibilidade.png',
-    altText: 'Ícone de flexibilidade',
+    altText: 'Flexibility Icon',
   },
 ];
 
-function SmarTaskCard({ title, description, imageUrl, altText }) {
+function SmartAskCard({ title, description, imageUrl, altText }) {
   return (
     <div className={clsx('col col--4')}>
       <div className={clsx('card', styles.card)}>
@@ -43,10 +43,10 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <Heading as="h2" className="text--center">O que é a SmarTask</Heading>
+        <Heading as="h2" className="text--center">What is SmartAsk?</Heading>
         <div className="row">
-          {SmarTaskCards.map((props, idx) => (
-            <SmarTaskCard key={idx} {...props} />
+          {SmartAskCards.map((props, idx) => (
+            <SmartAskCard key={idx} {...props} />
           ))}
         </div>
       </div>
