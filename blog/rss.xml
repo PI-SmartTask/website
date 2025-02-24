@@ -4,7 +4,7 @@
         <title>Smartask Blog</title>
         <link>https://PI-SmartTask.github.io/website/blog</link>
         <description>Smartask Blog</description>
-        <lastBuildDate>Mon, 24 Feb 2025 13:29:02 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Feb 2025 14:48:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,9 +12,14 @@
             <title><![CDATA[Milestone 1]]></title>
             <link>https://PI-SmartTask.github.io/website/blog/milestone 1</link>
             <guid>https://PI-SmartTask.github.io/website/blog/milestone 1</guid>
-            <pubDate>Mon, 24 Feb 2025 13:29:02 GMT</pubDate>
-            <description><![CDATA[meter aqui calendario e apresentacao]]></description>
-            <content:encoded><![CDATA[<p>meter aqui calendario e apresentacao</p>]]></content:encoded>
+            <pubDate>Mon, 24 Feb 2025 14:48:25 GMT</pubDate>
+            <description><![CDATA[Presentation]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p><a href="https://pi-smarttask.github.io/website/assets/files/M1-bb9822d01b3d011cca89ac88cfe418d1.pdf" target="_blank">Presentation</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://pi-smarttask.github.io/website/assets/files/Calendario-145cf78282c7fd652e08d48a00409d1b.pdf" target="_blank">Project Calendar</a></p>
+</blockquote>]]></content:encoded>
             <category>Milestones</category>
             <category>Inception fase</category>
             <category>objectives</category>
