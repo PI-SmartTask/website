@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://PI-SmartTask.github.io/website/blog</id>
+    <title>Smartask Blog</title>
+    <updated>2025-02-24T13:29:02.890Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://PI-SmartTask.github.io/website/blog"/>
+    <subtitle>Smartask Blog</subtitle>
+    <icon>https://PI-SmartTask.github.io/website/img/logo_s.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Milestone 1]]></title>
+        <id>https://PI-SmartTask.github.io/website/blog/milestone 1</id>
+        <link href="https://PI-SmartTask.github.io/website/blog/milestone 1"/>
+        <updated>2025-02-24T13:29:02.890Z</updated>
+        <summary type="html"><![CDATA[meter aqui calendario e apresentacao]]></summary>
+        <content type="html"><![CDATA[<p>meter aqui calendario e apresentacao</p>]]></content>
+        <category label="Milestones" term="Milestones"/>
+        <category label="Inception fase" term="Inception fase"/>
+        <category label="objectives" term="objectives"/>
+        <category label="Project calendar" term="Project calendar"/>
+        <category label="Presentation" term="Presentation"/>
+        <category label="Communication plan" term="Communication plan"/>
+    </entry>
+</feed>
