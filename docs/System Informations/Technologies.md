@@ -31,4 +31,3 @@ This section lists the different technologies we use and how they are used.
 |<img src={spring} width="60" height="60"/>| Spring | Backend framework |
 |<img src={csv} width="60" height="60"/>| CSV | Data storage format |
 |<img src={rabbitmq} width="60" height="60"/>| Rabbitmq | Task queue system |
-|<img src={duca} width="60" height="60"/>| Duca | Specific tool (define usage) |
