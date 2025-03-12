@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Use Cases
+# Use Case Model
 
 ### Use Cases of the project
 
