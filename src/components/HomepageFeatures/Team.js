@@ -5,11 +5,10 @@ import styles from './Team.module.css';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const teamMembers = [
-  { name: 'João Monteiro', role: 'MLOps', imageUrl: '/img/fundo.jpg', altText: 'João Monteiro', github: '#', linkedin: 'https://github.com/monteiroo21', email: 'joaomonteiro29@ua.pt' },
+  { name: 'João Monteiro', role: 'MLOps', imageUrl: './img/joao.jpeg', altText: 'João Monteiro', github: 'https://github.com/monteiroo21', linkedin: 'https://github.com/monteiroo21', email: 'joaomonteiro29@ua.pt' },
   { name: 'Rafael Kuati', role: 'DevOps Master ', imageUrl: './img/rafael.jpeg', altText: 'Rafael Kuati', github: 'https://github.com/Rafael-Kauati', linkedin: '#', email: 'rafaelkauati@ua.pt' },
   { name: 'Gabriel Teixeira', role: 'Team Manager', imageUrl: './img/gabriel.jpeg', altText: 'Gabriel Teixeira', github: 'https://github.com/GabrielTeixei', linkedin: '#', email: 'gabrielm.teixeira@ua.pt' },
-  { name: 'Vitale', role: 'Architect', imageUrl: '/img/fundo.jpg', altText: 'Vitale', github: '#', linkedin: 'https://github.com/Vitalie03', email: 'vitalie@ua.pt' },
-  { name: 'André Fernandes', role: 'Product Owner', imageUrl: '/img/fundo.jpg', altText: 'André Fernandes', github: '#', linkedin: 'https://github.com/SledgeSune', email: 'andre.sou.fernandes@ua.pt' },
+  { name: 'Vitale', role: 'Architect', imageUrl: './img/vitalie.png', altText: 'Vitale', github: 'https://github.com/Vitalie03', linkedin: 'https://github.com/Vitalie03', email: 'vitalie@ua.pt' },
 ];
 
 export default function Team() {

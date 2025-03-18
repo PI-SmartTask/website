@@ -11,7 +11,7 @@ In the system is important to understand the different types of users that will 
 
 ## Luís
 
-![Luís](@site/static/img/LuisPersona.png)
+![Luís](@site/static/img/LuisPersona.jpeg)
 
 Luís, a 37 year-old company employee, is responsible for **administering** the system distributed by its own company.
 
