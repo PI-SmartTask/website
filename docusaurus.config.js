@@ -77,7 +77,9 @@ const config = {
         items: [
           { to: '/docs/category/project-informations', label: 'Documents', position: 'left' },
           { to: '/blog/', label: 'Milestones', position: 'left' },
+          { to: '/docs/Supervisor', label: 'Supervisor', position: 'left' },
           { href: 'https://github.com/PI-SmartTask', label: 'GitHub', position: 'right' },
+          
         ],     
       },
       footer: {

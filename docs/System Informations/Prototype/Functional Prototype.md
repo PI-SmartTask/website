@@ -2,14 +2,17 @@
 sidebar_position: 1
 ---
 
-# Protótipo Funcional M3  
-## Esboços de todas as interfaces
+# Functional Prototype M3
+## Sketches of all interfaces
 
-Veja abaixo o protótipo funcional em vídeo:
+See below the functional prototype in video:
 
-🔗 [Clique aqui para abrir o vídeo em uma nova aba]( /files/m3_Prototype.mp4)
+🔗 [Click here to open the video in a new tab]( /files/m3_Prototype.mp4)
 
-<video controls width="100%">
-  <source src="/files/m3_Prototype.mp4" type="video/mp4" />
-  Seu navegador não suporta a exibição de vídeos.
-</video>
+<iframe width="100%" height="400" 
+  src="https://www.youtube.com/embed/Wyb-GLhDi-A" 
+  title="Functional Prototype M3" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
