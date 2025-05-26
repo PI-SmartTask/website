@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-# 1 Algorithms Used
-
 ## 1.1 Integer Linear Programming (ILP)
 
 Integer Linear Programming (ILP) is an optimization technique used to maximize or minimize a linear function subject to linear constraints, with decision variables restricted to integer values. It is useful for problems like resource allocation and scheduling.
