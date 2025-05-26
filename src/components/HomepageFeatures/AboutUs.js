@@ -24,7 +24,7 @@ export default function SobreNos() {
         }}
       >
         We are Computer Engineering students, and this project was developed as our Final Year Project for our undergraduate program.
-        The concept of SmartAsk is an advanced system that uses AI and advanced algorithms to optimize the allocation of schedules in companies.
+        The concept of SmarTask is an advanced system that uses AI and advanced algorithms to optimize the allocation of schedules in companies.
       </p>
     </section>
   );
