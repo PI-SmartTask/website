@@ -6,4 +6,4 @@ sidebar_position: 1
 
 ### A simple diagram to illustrate our architecture
 
-![image](@site/static/img/Arquitetura.jpg)
+![image](@site/static/img/ArquiteturaFInal.jpg)
