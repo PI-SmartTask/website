@@ -4,10 +4,25 @@
         <title>Smartask Blog</title>
         <link>https://PI-SmartTask.github.io/website/blog</link>
         <description>Smartask Blog</description>
-        <lastBuildDate>Mon, 07 Apr 2025 20:34:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jun 2025 22:17:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Milestone 4]]></title>
+            <link>https://PI-SmartTask.github.io/website/blog/milestone 4</link>
+            <guid>https://PI-SmartTask.github.io/website/blog/milestone 4</guid>
+            <pubDate>Mon, 02 Jun 2025 22:17:26 GMT</pubDate>
+            <description><![CDATA[M4 Presentation]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p><a href="https://pi-smarttask.github.io/website/assets/files/M4-2e1abc36a86422241009825ec880fc42.pdf" target="_blank">M4 Presentation</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://pi-smarttask.github.io/website/assets/files/Demo-79abfbd7262e9deded64df90c983a141.mp4" target="_blank">Demo</a></p>
+</blockquote>]]></content:encoded>
+            <category>prototype</category>
+            <category>mid-term presentation with supervisors</category>
+        </item>
         <item>
             <title><![CDATA[Milestone 3]]></title>
             <link>https://PI-SmartTask.github.io/website/blog/milestone 3</link>

@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://PI-SmartTask.github.io/website/blog</id>
     <title>Smartask Blog</title>
-    <updated>2025-04-07T20:34:11.000Z</updated>
+    <updated>2025-06-02T22:17:26.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://PI-SmartTask.github.io/website/blog"/>
     <subtitle>Smartask Blog</subtitle>
     <icon>https://PI-SmartTask.github.io/website/img/logo_s.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Milestone 4]]></title>
+        <id>https://PI-SmartTask.github.io/website/blog/milestone 4</id>
+        <link href="https://PI-SmartTask.github.io/website/blog/milestone 4"/>
+        <updated>2025-06-02T22:17:26.000Z</updated>
+        <summary type="html"><![CDATA[M4 Presentation]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p><a href="https://pi-smarttask.github.io/website/assets/files/M4-2e1abc36a86422241009825ec880fc42.pdf" target="_blank">M4 Presentation</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://pi-smarttask.github.io/website/assets/files/Demo-79abfbd7262e9deded64df90c983a141.mp4" target="_blank">Demo</a></p>
+</blockquote>]]></content>
+        <category label="prototype" term="prototype"/>
+        <category label="mid-term presentation with supervisors" term="mid-term presentation with supervisors"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Milestone 3]]></title>
         <id>https://PI-SmartTask.github.io/website/blog/milestone 3</id>
